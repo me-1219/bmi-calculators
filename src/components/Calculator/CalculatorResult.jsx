@@ -43,7 +43,7 @@ const CalculatorResult = ({ result, unit }) => {
       <Card variant="elevated">
         <div className="flex items-center gap-3 mb-3">
           <Target className="text-green-500" size={20} />
-          <h4 className="dark:text-gray-100 text-lg font-semibold">Healthy Weight Range</h4>
+          <h4 className="dark:text-gray-100 text-lg font-semibold">Healthy Weight Ranges</h4>
         </div>
         <div className="text-2xl font-bold text-green-600">
           {result.idealWeight.display}
